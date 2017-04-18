@@ -24,10 +24,12 @@ zplug 'mafredri/zsh-async'
 zplug 'supercrabtree/k'
 # A plugin for the Z shell that posts desktop notifications. Read more: https://github.com/marzocchi/zsh-notify
 zplug 'marzocchi/zsh-notify'
+# oh-my-zsh. Read more: https://github.com/robbyrussell/oh-my-zsh
+zplug 'plugins/rbenv', from:oh-my-zsh
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check; then
-    printf "Install? [y/N]: "
+    printf 'Install? [y/N]: '
     if read -q; then
         echo; zplug install
     fi
