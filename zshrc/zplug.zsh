@@ -24,6 +24,8 @@ zplug 'mafredri/zsh-async'
 zplug 'supercrabtree/k'
 # A plugin for the Z shell that posts desktop notifications. Read more: https://github.com/marzocchi/zsh-notify
 zplug 'marzocchi/zsh-notify'
+# Better completion for npm. Read more: https://github.com/lukechilds/zsh-better-npm-completion
+zplug 'lukechilds/zsh-better-npm-completion', nice:10
 # oh-my-zsh. Read more: https://github.com/robbyrussell/oh-my-zsh
 zplug 'plugins/rbenv', from:oh-my-zsh
 
