@@ -25,9 +25,10 @@ zplug 'supercrabtree/k'
 # A plugin for the Z shell that posts desktop notifications. Read more: https://github.com/marzocchi/zsh-notify
 zplug 'marzocchi/zsh-notify'
 # Better completion for npm. Read more: https://github.com/lukechilds/zsh-better-npm-completion
-zplug 'lukechilds/zsh-better-npm-completion', nice:10
+zplug 'lukechilds/zsh-better-npm-completion', defer:3
 # oh-my-zsh. Read more: https://github.com/robbyrussell/oh-my-zsh
 zplug 'plugins/rbenv', from:oh-my-zsh
+zplug 'lib/history', from:oh-my-zsh
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check; then
